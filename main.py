@@ -12,7 +12,7 @@ import uvicorn
 
 # === SOZLAMALAR ===
 BOT_TOKEN = "9093218376:AAFZAUaVz0Tg7aTMAKZcTA4wbID6mKIzTy8"
-WEBAPP_URL = "https://onrender.com"
+WEBAPP_URL = "https://onrender.com" 
 
 YOUTUBE_VIDEOS = [
     {"id": "0ivy1Ktniaw", "title": "1-Video"}
