@@ -11,7 +11,7 @@ from fastapi.responses import HTMLResponse
 import uvicorn
 
 # === SOZLAMALAR ===
-BOT_TOKEN = "BOT_TOKENINGIZNI_SHU_YERGA_YOZING"
+BOT_TOKEN = "9093218376:AAFZAUaVz0Tg7aTMAKZcTA4wbID6mKIzTy8"
 WEBAPP_URL = "https://onrender.com"
 
 YOUTUBE_VIDEOS = [
