@@ -19,7 +19,7 @@
 <body>
     <h3>🎥 VineZone — Video ko'rib pul ishlang</h3>
     <div id="player-box">
-        <iframe id="ytplayer" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe id="ytplayer" src="https://youtube.com" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <div class="btns" id="video-buttons"></div>
 
@@ -40,9 +40,8 @@
         let timer = null;
 
         const iframe = document.getElementById("ytplayer");
-        iframe.src = "https://youtube.com" + videos[0].id + "?enablejsapi=1&playsinline=1&rel=0";
-
         const btnContainer = document.getElementById("video-buttons");
+
         videos.forEach((v, idx) => {
             const btn = document.createElement("button");
             btn.innerText = v.title;
